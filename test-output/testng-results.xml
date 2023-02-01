@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-01T13:13:45 IST" name="Default suite" finished-at="2023-02-01T13:13:53 IST" duration-ms="8244">
+  <suite started-at="2023-02-01T16:59:01 IST" name="Default suite" finished-at="2023-02-01T16:59:06 IST" duration-ms="5033">
     <groups>
     </groups>
-    <test started-at="2023-02-01T13:13:45 IST" name="Default test" finished-at="2023-02-01T13:13:53 IST" duration-ms="8244">
-      <class name="httpMethods.HttpRequest">
-        <test-method signature="getUsers()[pri:1, instance:httpMethods.HttpRequest@470f1802]" started-at="2023-02-01T13:13:45 IST" name="getUsers" finished-at="2023-02-01T13:13:50 IST" duration-ms="5445" status="PASS">
+    <test started-at="2023-02-01T16:59:01 IST" name="Default test" finished-at="2023-02-01T16:59:06 IST" duration-ms="5033">
+      <class name="postRequstBody.UsingExternalJsonFile">
+        <test-method signature="testPostUsingExternalJsonFile()[pri:1, instance:postRequstBody.UsingExternalJsonFile@cd3fee8]" started-at="2023-02-01T16:59:01 IST" name="testPostUsingExternalJsonFile" finished-at="2023-02-01T16:59:06 IST" duration-ms="4865" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUsers -->
-        <test-method signature="crateUser()[pri:2, instance:httpMethods.HttpRequest@470f1802]" started-at="2023-02-01T13:13:50 IST" name="crateUser" finished-at="2023-02-01T13:13:52 IST" duration-ms="1367" status="PASS">
+        </test-method> <!-- testPostUsingExternalJsonFile -->
+        <test-method signature="testDelete()[pri:2, instance:postRequstBody.UsingExternalJsonFile@cd3fee8]" started-at="2023-02-01T16:59:06 IST" name="testDelete" finished-at="2023-02-01T16:59:06 IST" duration-ms="85" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- crateUser -->
-        <test-method signature="updateUser()[pri:3, instance:httpMethods.HttpRequest@470f1802]" started-at="2023-02-01T13:13:52 IST" name="updateUser" finished-at="2023-02-01T13:13:52 IST" depends-on-methods="httpMethods.HttpRequest.crateUser" duration-ms="657" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateUser -->
-        <test-method signature="deleteUser()[pri:4, instance:httpMethods.HttpRequest@470f1802]" started-at="2023-02-01T13:13:52 IST" name="deleteUser" finished-at="2023-02-01T13:13:53 IST" duration-ms="665" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteUser -->
-      </class> <!-- httpMethods.HttpRequest -->
+        </test-method> <!-- testDelete -->
+      </class> <!-- postRequstBody.UsingExternalJsonFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

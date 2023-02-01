@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="httpMethods.HttpRequest">
+      <class name="postRequstBody.UsingExternalJsonFile">
         <methods>
-          <include name="updateUser"/>
-          <include name="crateUser"/>
+          <include name="testDelete"/>
         </methods>
-      </class> <!-- httpMethods.HttpRequest -->
+      </class> <!-- postRequstBody.UsingExternalJsonFile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
