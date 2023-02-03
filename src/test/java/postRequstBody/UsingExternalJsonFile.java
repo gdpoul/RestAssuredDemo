@@ -25,8 +25,9 @@ public class UsingExternalJsonFile {
 		JSONTokener jt = new JSONTokener(fr);
 		JSONObject data = new JSONObject(jt);
 
-		given().contentType("application/json").body(data.toString())
-
+		         given()
+		               .contentType("application/json")
+		               .body(data.toString())
 				.when()
 				      .post("http://localhost:3000/students")
 				.then()
