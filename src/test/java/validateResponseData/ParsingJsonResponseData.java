@@ -1,4 +1,4 @@
-package validateJsonResponseData;
+package validateResponseData;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

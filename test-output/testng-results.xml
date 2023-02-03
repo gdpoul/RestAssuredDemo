@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-02T16:06:25 IST" name="Default suite" finished-at="2023-02-02T16:06:28 IST" duration-ms="3328">
+  <suite started-at="2023-02-03T14:04:49 IST" name="Default suite" finished-at="2023-02-03T14:04:53 IST" duration-ms="4013">
     <groups>
     </groups>
-    <test started-at="2023-02-02T16:06:25 IST" name="Default test" finished-at="2023-02-02T16:06:28 IST" duration-ms="3328">
-      <class name="validateResponseData.ParsingJsonResponseData">
-        <test-method signature="testJsonResponseBodyData()[pri:2, instance:validateResponseData.ParsingJsonResponseData@6eda5c9]" started-at="2023-02-02T16:06:25 IST" name="testJsonResponseBodyData" finished-at="2023-02-02T16:06:28 IST" duration-ms="3255" status="PASS">
+    <test started-at="2023-02-03T14:04:49 IST" name="Default test" finished-at="2023-02-03T14:04:53 IST" duration-ms="4013">
+      <class name="schemaValidation.XMLSchemaValidation">
+        <test-method signature="xmlSchemaValidation()[pri:0, instance:schemaValidation.XMLSchemaValidation@40ef3420]" started-at="2023-02-03T14:04:49 IST" name="xmlSchemaValidation" finished-at="2023-02-03T14:04:53 IST" duration-ms="3918" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testJsonResponseBodyData -->
-      </class> <!-- validateResponseData.ParsingJsonResponseData -->
+        </test-method> <!-- xmlSchemaValidation -->
+      </class> <!-- schemaValidation.XMLSchemaValidation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
