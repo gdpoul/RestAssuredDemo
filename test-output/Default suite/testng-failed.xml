@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="postRequstBody.UsingExternalJsonFile">
+      <class name="validateResponseData.ParsingJsonResponseData">
         <methods>
-          <include name="testDelete"/>
+          <include name="testJsonResponseBodyData"/>
         </methods>
-      </class> <!-- postRequstBody.UsingExternalJsonFile -->
+      </class> <!-- validateResponseData.ParsingJsonResponseData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
