@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Create user Test">
+		<classes>
+			<class name="apiChaining.CreateUser" />
+		</classes>
+	</test>
+	<test name="Get User Test">
+		<classes>
+			<class name="apiChaining.GetUser" />
+		</classes>
+	</test>
+	<test name="Update User Test">
+		<classes>
+			<class name="apiChaining.UpdateUser" />
+		</classes>
+	</test>
+	<test name="Delete User Test">
+		<classes>
+			<class name="apiChaining.DeleteUser" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
