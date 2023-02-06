@@ -24,7 +24,7 @@ public class PathAndQueryParameter {
 				
 		.then()
 		      .statusCode(200)
-		      .log().all();
+		      .log().body();
 	}
 
 }
